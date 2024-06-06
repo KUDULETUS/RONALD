@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Water Level and Quality Monitoring System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>IoT Water Level and Quality Monitoring System</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#components">Components</a></li>
+            <li><a href="#objectives">Objectives</a></li>
+            <li><a href="#circuit">Circuit Diagram</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#connection">Connection Details</a></li>
+            <li><a href="#videos">Video</a></li> <!-- Added link to the videos section -->
+        </ul>
+    </nav>
+    
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>
+            ChatGPT
+            The IoT Water Level and Quality Monitoring System represents a pivotal advancement in managing water resources across multiple sectors. By harnessing microcontroller technology, sensor integration, and IoT connectivity, this system offers a dynamic and real-time solution to the challenges of water management. In agriculture, it enables precise irrigation scheduling by monitoring soil moisture levels and ensuring optimal water usage, thereby enhancing crop yield while conserving water resources.
+
+            For aquaculture, the system provides continuous monitoring of water quality parameters such as pH, temperature, dissolved oxygen, and turbidity. This ensures a healthy aquatic environment for fish and other aquatic organisms, leading to improved growth rates and reduced mortality.
+
+            In domestic settings, the system offers homeowners the ability to monitor water usage, detect leaks, and optimize water conservation efforts. By providing real-time data and alerts, it empowers individuals to make informed decisions about their water consumption habits, ultimately contributing to water conservation efforts on a larger scale.
+
+            The integration of IoT technology allows for remote monitoring and control, enabling users to access critical data and manage water resources from anywhere via a smartphone or computer. This accessibility enhances efficiency and responsiveness in addressing water-related issues, leading to more sustainable practices and better overall water management.
+
+            Moreover, the system can be customized to meet the specific needs of different users and environments, ensuring flexibility and scalability. Whether deployed in agricultural fields, aquaculture facilities, or residential properties, its adaptability makes it a versatile tool for optimizing water management practices across various applications.
+
+            Overall, the IoT Water Level and Quality Monitoring System represents a transformative solution in the realm of water management, offering unprecedented insights, control, and efficiency to users across different sectors. By leveraging cutting-edge technology, it not only enhances productivity and profitability but also promotes environmental sustainability by conserving precious water resources for future generations.
+        </p>
+    </section>
+    
+    <section id="components">
+        <h2>Components Used</h2>
+        <ul>
+            <li>ESP8266 Microcontroller</li>
+            <li>Arduino Uno</li>
+            <li>Ultrasonic Sensor</li>
+            <li>TDS Meter</li>
+            <li>Relay</li>
+            <li>Pump</li>
+            <li>LED</li>
+            <li>Buzzer</li>
+        </ul>
+        <h3>Component Images</h3>
+        <div class="component-images">
+            <img src="ESP8266.jpg" alt="ESP8266 Microcontroller">
+            <img src="download.jpg" alt="Arduino Uno">
+            <img src="utasonic.jpg" alt="Ultrasonic Sensor">
+            <img src="tds.jpg" alt="TDS Meter">
+            <img src="relay.jpg" alt="Relay">
+            <img src="Pump.jpg" alt="Pump">
+            <img src="led.jpg" alt="LED">
+            <img src="buzzer.jpg" alt="Buzzer">
+          
+
+        </div>
+    </section>
+    
+    <section id="objectives">
+        <h2>Objectives</h2>
+        <ul>
+            <li>Real-time monitoring</li>
+            <li>Automated water level monitoring</li>
+            <li>Water quality assurance</li>
+            <li>Remote access and control</li>
+        </ul>
+    </section>
+    
+    <section id="circuit">
+        <h2>Circuit Diagram</h2>
+        <img src="circuit.png" alt="Circuit Diagram">
+    </section>
+    
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>The ESP8266 collects data from the ultrasonic sensor and TDS meter, controls the relay to manage the pump, and provides alerts through the LED and buzzer. The system is monitored and controlled remotely using the Blynk app.</p>
+    </section>
+    
+    <section id="connection">
+        <h2>Connection Details</h2>
+        <p>The Ultrasonic Sensor's Trig pin is connected to D8, and the Echo pin to D7 on the ESP8266. The TDS Meter's analog output is connected to A0 on the ESP8266. The Relay, LED, and Buzzer are connected to D2, D3, and D4 respectively.</p>
+    </section>
+
+<section id="videos">
+<h2>Video</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JSi7ShhI0wU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+
+    
+    <footer>
+        <p>&copy; 2024 IoT Water Level and Quality Monitoring System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
